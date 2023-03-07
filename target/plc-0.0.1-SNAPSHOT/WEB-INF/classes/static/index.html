@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Visualizador datos PLC</title>
+</head>
+<body>
+
+        <main class="container">
+
+
+            <header>
+                <h1>Secador Frozen</h1>
+            </header>
+
+            <section>
+
+                <div>
+                    <h3 class="temp1">Temperatura</h3>
+                    <h2 id="tempValue"></h2>
+                    <h3 class="point1">Set Point-QM1</h3>
+                    <h2 id="valueQM"></h2></div>
+                <div>
+
+                <div>
+                    <h3 class="temp2">Temperatura</h3>
+                    <h2 id="tempValue2"></h2>
+                    <h3 class="point2">Set Point-QM2</h3>
+                    <h2 id="valueQM2"></h2>
+                </div>
+
+            </section>
+
+            <div class="canvas"><canvas id="myChart"></canvas></div>
+
+        </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+com\prueba\plc\Controller\PLCControllerZonaA2.class
+com\prueba\plc\Controller\HomeController.class
+com\prueba\plc\Model\PLC.class
+com\prueba\plc\Controller\PLCControllerZonaA1.class
+com\prueba\plc\ServletInitializer.class
+com\prueba\plc\Dao\PLCDaoZonaA2.class
+com\prueba\plc\PlcApplication.class
+com\prueba\plc\Dao\PLCDaoZonaA1.class
+com\prueba\plc\Config\CORSFilter.class

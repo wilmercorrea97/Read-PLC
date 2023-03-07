@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.container  {
+  min-height:50vh;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+}
+
+section {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    gap:5px;
+}
+
+div {
+
+    gap:25px;
+}
+
+.temp1 {
+    color: #36A2EB;
+}
+
+.temp2 {
+    color: #ff6384;
+}
+
+.point1 {
+  color: #36A2EB;
+}
+
+.point2 {
+  color: #ff6384;
+}
+
+h1 {
+    font-size: 1.9rem;
+    font-family:Comfortaa;
+    font-weigth:700;
+    padding: 4px;
+
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family:Comfortaa;
+    font-weigth:600;
+    padding: 4px;
+
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-family:Comfortaa;
+    font-weigth:400;
+    padding: 4px;
+
+}
+
+
+.canvas {
+    width:55%;
+    min-height:35vh;
+
+}
