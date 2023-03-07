@@ -1,4 +1,4 @@
-#Read-PLC-V1
+#Read-PLC-V1 
 Software de lectura de datos de un grupo de PLC representados en una gráfica.
 
 #Descripción
