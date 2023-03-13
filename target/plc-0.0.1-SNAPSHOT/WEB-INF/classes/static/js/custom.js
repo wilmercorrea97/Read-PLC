@@ -34,7 +34,7 @@ async function createChart() {
           ticks: {
             callback: function (value, index, values) {
               // Si el índice es divisible por 60, mostrar la etiqueta
-              if (index % 60 === 0) {
+              if (index % 120 === 0) {
                 const date = new Date(timeStamp[index]);
                 return  date.getHours();
 
