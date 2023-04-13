@@ -54,7 +54,7 @@ public class PLCDaoZonaA2 {
     }
 
     public List<PLC> getSetPointQM(){
-        String query = "SELECT TOP (1)  value FROM dbo.mqttlogs WHERE (source = 'DAS_SECADO_FROZEN_SET_POINT_QUEM1') ORDER BY id DESC";
+        String query = "SELECT TOP (1)  value FROM dbo.mqttlogs WHERE (source = 'DAS_SECADO_FROZEN_SET_POINT_QUEM2') ORDER BY id DESC";
         List<PLC> plcs = new ArrayList<>();
 
         try (Connection connection = getConnectionPLC();
